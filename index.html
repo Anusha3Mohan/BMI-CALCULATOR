@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+
+     <!-- css -->
+     <link rel="stylesheet" href="style.css">
+
+     <!-- font aewsome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+ 
+     <!-- bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+
+</head>
+<body>
+    
+    <div>
+        <img src="./green263366738.webp" alt="" width="100%" height="860px">
+    </div>
+    
+    <section id="bmiForm" class="section">
+        <div class="head">
+            <h1 class="heading">BMI CALCULATOR</h1>
+            <img src="https://www.poonamkapur.com/webassets/images/bmi.png" width="300px" height="300px" alt="">
+        </div>
+
+        <div class="gender">
+            Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" id="gender" name="gender">&nbsp;&nbsp; Male<span style="margin-left: 25px;"><input type="radio" id="gender" name="gender">&nbsp;&nbsp;Female</span><span style="margin-left: 25px;"><input type="radio" name="gender">&nbsp;&nbsp;Other</span><br><br>
+        </div>
+
+        <div class="age">
+            Age ( 1year or above ): <span><input style="width:270px;margin-top:-5px;margin-left: 18px;" id="age" class="form-control" type="number" placeholder="Year"></span>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-4">
+                <p>Weight:</p>
+                <input style="margin-top: -10px;" id="weight" type="number" class="form-control" placeholder="kg">
+            </div>
+            <div class="col-4">
+                <p>Height:</p>
+                <input style="margin-top: -10px;" id="height" type="number" class="form-control" placeholder="cm">
+            </div>
+        </div>
+        <br>
+       
+
+        <div>
+            <button style="width:150px; color: white;font-weight: bold;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background-color: rgb(48, 160, 61);" onclick="calculate()" class="form-control text-center">Calculate</button>
+        </div>
+
+
+        <div id="result" class="mt-4 text-dark">
+            
+        </div>
+    </section>
+
+   
+    
+    
+</body>
+<script src="./script.js"></script>
+
+</html>

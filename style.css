@@ -1,0 +1,37 @@
+.heading{
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.section{
+    background-color: rgb(223, 255, 201);
+    width: 600px;
+    position: absolute;
+    top:0;
+    left: 30%;
+    padding: 20px;
+    border:4px solid  rgb(255, 255, 255);
+}
+
+.head{
+    text-align: center;
+}
+
+.gender{
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.age{
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex; 
+}
+
+.row{
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
